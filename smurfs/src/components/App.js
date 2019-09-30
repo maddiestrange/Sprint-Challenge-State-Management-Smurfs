@@ -1,16 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 
-import { connect } from 'react-redux';
-import {} from '../actions'
 import SmurfCards from './SmurfCards';
 import SmurfForm from './SmurfForm';
 
-function App() {
+class App extends Component {
   render() {
     return (
       <div className="App">
-       <SmurfForm />
        <SmurfCards />
       </div>
     );
