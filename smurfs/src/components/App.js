@@ -2,13 +2,15 @@ import React, { Component } from "react";
 import "./App.css";
 
 import SmurfCards from './SmurfCards';
-import SmurfForm from './SmurfForm';
+
+import { addSmurf } from '../actions';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <SmurfCards />
+      <SmurfCards />
       </div>
     );
   }
